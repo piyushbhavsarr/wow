@@ -1,3 +1,15 @@
+#include<stdio.h>
+#include<string.h>
+#include<sys/types.h>
+#include<sys/stat.h>
+#include<dirent.h>
+#include<fcntl.h>
+#include<unistd.h>
+#include<stdlib.h>
+
+FILE *fp;
+char cmd[],fn[50],inst[50];
+
 void search() {
   int i, j, cnt = 0, lno = 0, p;
   char buff[100][80], temp[20], op[5], pattern[20];
