@@ -71,7 +71,7 @@ int main()
 		}while (cmd[i]!='\n');
 		cmd[i++]='\0';
 		sscanf(cmd,"%s",tok);
-		if (strcmp(tok,"search"==0)
+		if (strcmp(tok,"search")==0)
 				search();
 		else
 		{
